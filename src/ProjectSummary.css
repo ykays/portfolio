@@ -1,0 +1,26 @@
+@import '../node_modules/react-modal-video/scss/modal-video.scss';
+
+.ProjectSummary {
+    margin: 20px;
+    /* border: 1px white solid; */
+}
+
+.Project {
+    text-decoration: none;
+    color:  rgb(173, 182, 198);
+}
+
+.ProjectSummary:hover{
+    background-color: rgb(10, 46, 100);
+
+    
+}
+
+.ProjectName {
+    font-weight:bold;
+    font-size: 1.3rem;
+}
+
+.ProjectSummary:hover  .ProjectName{
+    color: rgb(20, 191, 191)
+}

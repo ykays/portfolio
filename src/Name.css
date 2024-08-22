@@ -1,0 +1,15 @@
+.Name{
+    margin-top: 100px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.Summary{
+    margin-top: 30px;
+    font-style: italic;
+    color: rgb(173, 182, 198);
+    overflow: hidden;
+}
+
+.Main{
+    overflow: hidden;
+}
