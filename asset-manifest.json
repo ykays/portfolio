@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7f200713.css",
-    "main.js": "/portfolio/static/js/main.de2b78b8.js",
+    "main.css": "/portfolio/static/css/main.94882307.css",
+    "main.js": "/portfolio/static/js/main.0df68399.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/easy-grocery-store-drawing.png": "/portfolio/static/media/easy-grocery-store-drawing.6253fbdb1c524e920a3e.png",
     "static/media/iconJobly.png": "/portfolio/static/media/iconJobly.b2509853975723bb8e30.png",
     "index.html": "/portfolio/index.html",
-    "main.7f200713.css.map": "/portfolio/static/css/main.7f200713.css.map",
-    "main.de2b78b8.js.map": "/portfolio/static/js/main.de2b78b8.js.map",
+    "main.94882307.css.map": "/portfolio/static/css/main.94882307.css.map",
+    "main.0df68399.js.map": "/portfolio/static/js/main.0df68399.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f200713.css",
-    "static/js/main.de2b78b8.js"
+    "static/css/main.94882307.css",
+    "static/js/main.0df68399.js"
   ]
 }
