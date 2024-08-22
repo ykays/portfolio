@@ -2,6 +2,7 @@
     margin-top: 100px;
     font-weight: bold;
     overflow: hidden;
+    color: rgb(217, 85, 36)
 }
 .Summary{
     margin-top: 30px;
@@ -13,3 +14,9 @@
 .Main{
     overflow: hidden;
 }
+
+.Title {
+    color: rgb(236, 147, 115);
+}
+
+

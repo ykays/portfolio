@@ -16,7 +16,7 @@ function Name() {
       </div>
       <hr />
       <div>
-        <p>Contact details:</p>
+        <p className="Contact">Contact details:</p>
         <p>
           <b>Email</b>: kays.katarzyna@gmail.com
         </p>

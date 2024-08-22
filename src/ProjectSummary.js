@@ -13,7 +13,7 @@ function ProjectSummary({ project }) {
     <div className="ProjectSummary">
       <Container>
         <Row>
-          <Col>
+          <Col style={{ marginTop: "10%" }}>
             <img
               src={project.icon}
               alt={project.id}
@@ -67,6 +67,7 @@ function ProjectSummary({ project }) {
                   size="sm"
                   disabled
                   style={{ marginRight: "2px" }}
+                  className="ProjectStack"
                 >
                   {s}
                 </Button>
