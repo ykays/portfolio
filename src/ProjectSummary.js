@@ -13,28 +13,7 @@ function ProjectSummary({ project }) {
     <div className="ProjectSummary">
       <Container>
         <Row>
-          <Col style={{ marginTop: "10%" }}>
-            <img
-              src={project.icon}
-              alt={project.id}
-              style={{ height: "60px", width: "100px" }}
-            />
-            <ModalVideo
-              channel="youtube"
-              youtube={{ mute: 0, autoplay: 0 }}
-              isOpen={isOpen}
-              videoId={project.video}
-              onClose={() => setOpen(false)}
-            />
-            <Button
-              variant="outline-primary"
-              style={{ marginLeft: "15px", marginTop: "2px" }}
-              onClick={() => setOpen(true)}
-            >
-              Demo
-            </Button>
-          </Col>
-          <Col xs={10}>
+          <Col>
             <div className="ProjectName">
               {project.name}
 
@@ -46,12 +25,26 @@ function ProjectSummary({ project }) {
               >
                 <i className="fa fa-github" style={{ fontSize: "26px" }}></i>
               </a>
+              <ModalVideo
+                channel="youtube"
+                youtube={{ mute: 0, autoplay: 0 }}
+                isOpen={isOpen}
+                videoId={project.video}
+                onClose={() => setOpen(false)}
+              />
+              <Button
+                variant="outline-primary"
+                style={{ marginLeft: "15px" }}
+                onClick={() => setOpen(true)}
+              >
+                Demo
+              </Button>
             </div>
             <div
               style={{
                 fontStyle: "italic",
                 fontSize: "0.75rem",
-                marginBottom: "5px",
+                marginBottom: "10px",
               }}
             >
               {project.type}

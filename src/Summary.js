@@ -39,7 +39,9 @@ function Summary() {
         solution.
       </p>
       <hr />
-      <ProjectsList />
+      <Container>
+        <ProjectsList />
+      </Container>
     </Container>
   );
 }

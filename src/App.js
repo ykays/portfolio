@@ -9,10 +9,10 @@ function App() {
   return (
     <Container className="App">
       <Row>
-        <Col xs={5}>
+        <Col xs={6} md={4}>
           <Name />
         </Col>
-        <Col>
+        <Col xs={6} md={8}>
           <Summary />
         </Col>
       </Row>
