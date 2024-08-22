@@ -24,10 +24,14 @@ function Name() {
           <b>Phone</b>: +1 757 355 2742
         </p>
       </div>
-      <a href="https://github.com/ykays" target="_blank">
+      <a href="https://github.com/ykays" target="_blank" rel="noreferrer">
         <i className="fa fa-github" style={{ fontSize: "36px" }}></i>
       </a>
-      <a href="https://www.linkedin.com/in/katarzyna-kays/" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/katarzyna-kays/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <i
           className="fa fa-linkedin"
           style={{ fontSize: "36px", marginLeft: "10px" }}

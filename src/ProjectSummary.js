@@ -41,6 +41,7 @@ function ProjectSummary({ project }) {
               <a
                 href={project.githubLink}
                 target="_blank"
+                rel="noreferrer"
                 style={{ marginLeft: "10px" }}
               >
                 <i className="fa fa-github" style={{ fontSize: "26px" }}></i>
