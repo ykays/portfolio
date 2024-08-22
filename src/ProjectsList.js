@@ -1,10 +1,11 @@
 import React from "react";
 import { projectsSummary } from "./projectsObject";
 import ProjectSummary from "./ProjectSummary";
+import Container from "react-bootstrap/Container";
 
 function ProjectsList() {
   return (
-    <div>
+    <Container>
       <h2>Projects</h2>
 
       <p>
@@ -12,7 +13,7 @@ function ProjectsList() {
           return <ProjectSummary project={project} />;
         })}
       </p>
-    </div>
+    </Container>
   );
 }
 

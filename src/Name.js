@@ -1,9 +1,10 @@
 import React from "react";
 import "./Name.css";
+import Container from "react-bootstrap/Container";
 
 function Name() {
   return (
-    <div className="Main">
+    <Container className="Main">
       <h1 className="Name">Katarzyna Kays</h1>
       <h4 className="Title">Software Engineer</h4>
       <div>
@@ -37,7 +38,7 @@ function Name() {
           style={{ fontSize: "36px", marginLeft: "10px" }}
         ></i>
       </a>
-    </div>
+    </Container>
   );
 }
 

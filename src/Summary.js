@@ -1,10 +1,11 @@
 import React from "react";
 import "./Summary.css";
 import ProjectsList from "./ProjectsList";
+import Container from "react-bootstrap/Container";
 
 function Summary() {
   return (
-    <div className="Summary-About">
+    <Container className="Summary-About">
       <p>
         Over the past 10 years I worked as a{" "}
         <b>Senior Systems/Business and Data Analyst </b>at an Investment Bank
@@ -39,7 +40,7 @@ function Summary() {
       </p>
       <hr />
       <ProjectsList />
-    </div>
+    </Container>
   );
 }
 
