@@ -38,7 +38,7 @@ const projectsSummary = [
   },
   {
     id: 2,
-    name: "Easy Grocery App",
+    name: "Easy Grocery",
     type: "Capstone project, Full Stack App",
     stack: [
       "Python",
