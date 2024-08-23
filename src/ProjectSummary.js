@@ -49,14 +49,16 @@ function ProjectSummary({ project }) {
             >
               {project.type}
             </div>
-            <div style={{ marginBottom: "10px" }}>{project.summary}</div>
+            <div style={{ marginBottom: "10px" }} className="ProjectSum">
+              {project.summary}
+            </div>
             <div style={{ marginBottom: "10px", fontSize: "0.80rem" }}>
               {project.details}
             </div>
             <div>
               {project.stack.map((s) => (
                 <Button
-                  variant="outline-success"
+                  variant="outline-warning"
                   size="sm"
                   disabled
                   style={{ marginRight: "2px" }}

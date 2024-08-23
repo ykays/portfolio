@@ -13,7 +13,7 @@
 
 .ProjectSummary:hover{
     background-color: rgb(10, 46, 100);
-    font-weight: bolder;
+    /* font-weight: bolder; */
 
     
 }
@@ -26,7 +26,12 @@
 }
 
 .ProjectSummary:hover  .ProjectName{
-    color: rgb(20, 191, 191)
+    color: rgb(20, 191, 191);
+    font-weight: bolder;
+}
+
+.ProjectSummary:hover .ProjectSum{
+    font-weight: bolder;
 }
 
 .ProjectSummary:hover .ProjectStack{

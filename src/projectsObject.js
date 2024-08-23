@@ -31,7 +31,7 @@ const projectsSummary = [
     ],
     summary: "Allows user to explore and plan the trips to visit US parks",
     details:
-      "The landing page displays all US parks on the map. They can be filtered based on state, park type, and activity. The users can click on any park marker on the map to get more details about the park, save a note, mark the park as visited, or add a park to their planned route. They can create and view/delete/edit saved routes which can include any point on the map and/or US park.",
+      "The app that will let you explore all the parks in the US and plan the trips to see them all! One place where the parks visitors not only can view all the parks and their location on the map but also explore parks by state, type, and activity (like hiking, biking, etc),  find out more about individual park, save their personal notes about the park, and mark the park as visited which allow them to keep track of what else they still need to see. Once they start planning their next trip, they can add the parks to their trip and the map will display the best route to visit them all. They can later view, edit, delete, or export the route to Google Maps once they’re ready to take a trip.",
     githubLink: "https://github.com/ykays/Capstone-Two",
     icon: pinParkIcon,
     video: "XJHdq4Y0WwQ",
@@ -55,7 +55,7 @@ const projectsSummary = [
     summary:
       "Makes grocery shopping more efficient by combining API-driven product information and past purchases with analytics and visualization",
     details:
-      "The users can create a grocery list template which will be used for every grocery list creation. They can also create a reminder list with the products which can be added to the specific date grocery list. Finally, they can create a grocery list for a date, add additional products, edit/delete existing ones, mark them as 'checked' and update the total price of the groceries. The Analytics sections gives the user insights of the past purchases.",
+      "Do you usually buy the same things at your grocery store and even though you always forget something? This application allows you to create your own grocery shopping template which will be used to pre-populate a grocery list for a specific date. After you register in the app, you will able to search for any product in the internal Easy Grocery DB. Each product has an assigned category (which becomes helpful to find a specific store aisle/section while shopping). Easy Grocery app contains also a Don't forget section, where you can quickly add the item/s you don't want to forget next time doing groceries. While creating a grocery list, you can add these products and/or any product you didn't have on either template or don't forget list! The template, grocery, and don't forget lists can be viewed/modified at any time. Finally, you will be able to use Easy Grocery list during shopping to checkout the items already bought. After the shopping is completed, you may input the total price of each grocery (under each grocery list) and then view several analytics charts to analyze your spending, number of items bought, etc.",
     githubLink: "https://github.com/ykays/Capstone_Project_One",
     icon: groceryIcon,
     video: "chWS8L25Eiw",
@@ -78,7 +78,7 @@ const projectsSummary = [
     ],
     summary: "Allows user to explore companies and job offers",
     details:
-      "The users can view the list of all of the companies and open positions. They can filter the companies, jobs and apply for a role.  ",
+      "A place where a job seeker can explore the companies and their open positions. Once they find a perfect match, they can apply for a position and keep track of the jobs they've applied for.",
     githubLink: "https://github.com/ykays/React-Jobly",
     icon: joblyIcon,
     video: "nO0WTamnBl4",
